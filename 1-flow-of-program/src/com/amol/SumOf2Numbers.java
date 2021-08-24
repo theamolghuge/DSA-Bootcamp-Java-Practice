@@ -1,6 +1,6 @@
 //Take two numbers and print the sum of both.
 
-package com;
+package com.amol;
 
 import java.util.Scanner;
 
@@ -13,6 +13,7 @@ public class SumOf2Numbers {
 		int x = sc.nextInt();
 		System.out.print("Enter 2nd number: ");
 		int y = sc.nextInt();
+		sc.close();
 		
 		System.out.println("The Sum of 2 numbers is "+sum(x,y));
 	}

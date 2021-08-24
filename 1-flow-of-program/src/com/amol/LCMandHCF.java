@@ -1,4 +1,4 @@
-package com;
+package com.amol;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class LCMandHCF {
 		System.out.println("Enter 2 numbers: ");
 		int a = sc.nextInt();
 		int b = sc.nextInt();
-
+		sc.close();
 		int num = Math.min(a, b);
 		for (int i = num; i > 1; i--) {
 			if (a % i == 0 && b % i == 0) {

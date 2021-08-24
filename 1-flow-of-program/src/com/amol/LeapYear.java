@@ -1,6 +1,6 @@
 //Input a year and find whether it is a leap year or not.
 
-package com;
+package com.amol;
 
 import java.util.Scanner;
 

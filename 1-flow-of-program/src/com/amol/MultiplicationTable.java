@@ -1,4 +1,4 @@
-package com;
+package com.amol;
 
 import java.util.Scanner;
 

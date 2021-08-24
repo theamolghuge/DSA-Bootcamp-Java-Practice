@@ -1,5 +1,5 @@
 //Add numbers until user press 0
-package com;
+package com.amol;
 
 import java.util.Scanner;
 
@@ -14,5 +14,6 @@ public class SumOfnNumbers {
 			sum = sum + x;
 		}while(x!=0);
 		System.out.println("Sum : "+sum);
+		sc.close();
 	}
 }
